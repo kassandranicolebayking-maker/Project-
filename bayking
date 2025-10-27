@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CPSU</title>
+<style>
+body {
+background-color: purple;
+color: black;
+font-family: Arial, sans
+-serif;
+text-align: center;
+}
+img, iframe {
+margin: 1px 0;
+border-radius: 15px;
+}"
+</style>
+</head>
+<body>
+  <center>
+  <h1>MY PORTFOLIO<h1>
+    <h3>Hello, My name is Kassandra Bayking</h3><br>
+    
+     <a href="https://www.youtube.com/"target="_blank">    <img src="/html/Messenger_creation_CF4F4848-F315-4585-86A0-7E88CFF25DD1.jpeg" alt="youtube" width="300"height="300"></a><br>
+      <p2>This is my photo</p2><br></br>
+    
+      <video src="" width="300" controls></video><br>
+      <p3>Taylor Swift is my favourite artist and singer</p3><br><br><br>
+      </center>
+</body>
+
+<head>
+  
+  <h1>MY SAMPLE OUTPUT</h1>
+  <u1>
+    <li>1. PORTFOLIO IN CANVA: <a href="https://www.canva.com/design/DAGvdZC8OV4/h9SsuoqT5M1vbzNBKchQNA/edit?utm_content=DAGvdZC8OV4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">CLICK HERE</a></li><br>
+    <li>2. PORTFOLIO IN FIGMA: <a href="https://www.figma.com/proto/ijpQ9dUGlvaWJGZ08fZwOD/BAYKING?node-id=0-1&t=RgAvs5fxvHIaEVbt-1" target="_blank">CLICK HERE</a></li><br>
+    <li>3. SCHIMATIC DIAGRAM: <a href="https://drive.google.com/drive/folders/1cfFdAD_lrevWCjkzL2SswCyEO01CNxhp" target="_blank">CLICK HERE</a></li>
+<style>
+.comment-box {
+  width: 30%;
+  max-width: 300px;
+  font-family: sans-serif;
+}
+.comments {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+  background: #fff;
+}
+.input-area {
+  display: flex;
+  margin-top: 8px;
+}
+.input-area input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.send-btn {
+  background: #FF0000;
+  border: none;
+  color: #FFFFFF;
+  padding: 0 12px;
+  margin-left: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.send-btn svg {
+  width: 18px;
+  height: 18px;
+  stroke: #fff;
+}
+ </style>
+
+<div class="comment-box">
+  <div class="comments" id="comments"></div>
+
+  <div class="input-area">
+    <input type="text" id="commentInput" placeholder="Write a comment...">
+    <button class="send-btn" id="sendBtn">
+      <!-- visible send icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" stroke-width="2"
+           stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+        <line x1="22" y1="2" x2="11" y2="13"></line>
+        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<script>
+const comments = document.getElementById('comments');
+const input = document.getElementById('commentInput');
+const btn = document.getElementById('sendBtn');
+
+btn.onclick = () => {
+  if (input.value.trim() === '') return;
+  const p = document.createElement('p');
+  p.textContent = input.value;
+  comments.appendChild(p);
+  input.value = '';
+  comments.scrollTop = comments.scrollHeight;
+};
+</script>
+  <style>
+  body {
+    background-image: url('/background2.jpg');
+    background-size: cover;
+  }
+</style>
+
+
+  </u1>
+</head>
+</html>
